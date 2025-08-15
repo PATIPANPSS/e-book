@@ -1,13 +1,5 @@
 import React from "react";
 
-// const ebooks = [
-//   { id: 1, title: 'ความเข้าใจเบื้องต้นเกี่ยวกับสุขภาพจิต', coverUrl: 'https://placehold.co/400', pdfUrl: '/pdfs/book1.pdf' },
-//   { id: 2, title: 'วิธีรับมือกับความเครียดในชีวิตประจำวัน', coverUrl: 'https://placehold.co/400', pdfUrl: '/pdfs/book2.pdf' },
-//   { id: 3, title: 'การสร้างความสุขง่ายๆ ในชีวิต', coverUrl: 'https://placehold.co/400', pdfUrl: '/pdfs/book3.pdf' },
-//   { id: 4, title: 'ความสัมพันธ์กับตัวเองและผู้อื่น', coverUrl: 'https://placehold.co/400', pdfUrl: '/pdfs/book4.pdf' },
-//   { id: 5, title: 'คู่มือการจัดการอารมณ์', coverUrl: 'https://placehold.co/400', pdfUrl: '/pdfs/book5.pdf' },
-// ];
-
 const BookList = ({ebooks}) => {
   return (
     <div>

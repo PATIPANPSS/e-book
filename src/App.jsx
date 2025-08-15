@@ -3,8 +3,10 @@ import { useEffect, useState } from "react";
 import Header from "./components/Header";
 import BookList from "./components/BookList";
 
+import ImgBook1 from './assets/bookimg/depressive.JPG'
+ 
 const ebooks = [
-  { id: 1, title: 'ภาวะซึมเศร้า (Depressive)', coverUrl: '/src/assets/bookimg/depressive.JPG', pdfUrl: 'https://heyzine.com/flip-book/9147bcd2db.html' },
+  { id: 1, title: 'ภาวะซึมเศร้า (Depressive)', coverUrl: ImgBook1, pdfUrl: 'https://heyzine.com/flip-book/9147bcd2db.html' },
   { id: 2, title: 'วิธีรับมือกับความเครียดในชีวิตประจำวัน', coverUrl: 'https://placehold.co/400', pdfUrl: '/pdfs/book2.pdf' },
   { id: 3, title: 'การสร้างความสุขง่ายๆ ในชีวิต', coverUrl: 'https://placehold.co/400', pdfUrl: '/pdfs/book3.pdf' },
   { id: 4, title: 'ความสัมพันธ์กับตัวเองและผู้อื่น', coverUrl: 'https://placehold.co/400', pdfUrl: '/pdfs/book4.pdf' },
